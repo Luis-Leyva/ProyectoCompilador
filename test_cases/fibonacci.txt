@@ -1,0 +1,16 @@
+program factorial; 
+	var n, f, f1, f2: int;
+    {
+		f1 = -1;
+		f2 = 1;
+		n = 20;
+		cout ("Serie de Fibonacci: ");
+		do {
+			f = f1 + f2;
+			f1 = f2;
+			f2 = f;
+			cout (f);
+			n = n - 1;
+		} while (n + 1 > 0);
+    }
+end

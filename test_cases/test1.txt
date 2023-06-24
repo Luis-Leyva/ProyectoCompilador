@@ -1,0 +1,26 @@
+program hola; 
+	var a, ab, ac: int;
+		v: float;
+		b: float;
+		c: float;
+    { 
+        a = -1;
+        v = 87.5;	
+		cout (2.2 * 1 + (2 + 3 * 4));
+        cout (a, "Test");
+		cout ("hola");
+		if (a + 1 < 5 + 10) {
+			cout ("a es 0", a);
+			a = 0;
+		} else {
+			a = a + (5 * 2);
+			ab = (a + 2) * 3;
+			cout ("a es 10");
+		};
+		do {
+			cout ("hola");
+			a = a + 1;
+		} while (a + 1 < 5 + 10);
+		cout ("a es 11");
+    }
+end

@@ -1,0 +1,15 @@
+Tabla de variables
+{
+    "n": "int",
+    "f": "int",
+    "f1": "int",
+    "f2": "int",
+    "temp0": "int",
+    "1": "int",
+    "20": "int",
+    "\"Serie de Fibonacci: \"": "string",
+    "temp1": "int",
+    "temp2": "int",
+    "temp3": "int",
+    "temp4": "bool"
+}

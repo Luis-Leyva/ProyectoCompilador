@@ -1,0 +1,19 @@
+program while_regular; 
+	var n: int;
+    {
+		n = 0;
+		cout ("Inicio While Regular");
+		while (n > 0) {
+			cout ("n = ", n);
+			n = n - 1;
+		};
+		cout ("Termino");
+		cout ("Inicio Do While");
+		n = 0;
+		do {
+			cout ("n = ", n);
+			n = n - 1;
+		} while (n > 0);
+		cout ("Termino");
+    }
+end
